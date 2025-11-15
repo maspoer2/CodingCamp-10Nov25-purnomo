@@ -39,6 +39,7 @@ function renderTodos() {
 function clearTodos() {
     todos = [];
     renderTodos();    
+    todoList.innerHTML = `<li>No todos available</li>`;
 }
 
 /// Placeholder for future filter functionality
